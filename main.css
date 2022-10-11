@@ -159,12 +159,18 @@
     position: absolute;
     top: 0px;
     right: 0px;
-    overflow: hidden;
+   
   }
   
   p {
     font-family: "Dancing Script", cursive;
     font-family: "Rampart One", cursive;
     font-size: 4vw;
+  }
+  /* .audio {
+    position: relative;
+  } */
+  #player{
+    position: absolute;
   }
   

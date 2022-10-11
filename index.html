@@ -1,59 +1,60 @@
 <!DOCTYPE html>
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ms.Nhật Linh</title>
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
-      rel="stylesheet"
-    />
-    <script>
-      window.onload = function() {
-        var context = new AudioContext();
-      }
-      </script>
-    
-  </head>
-  <body>
-    <div id="drag-container">
-      <div id="spin-container">
-        <img src="img/1.jpg" alt="" />
-        <img src="img/2.jpg" alt="" />
-        <img src="img/3.jpg" alt="" />
-        <img src="img/4.jpg" alt="" />
-        <img src="img/5.jpg" alt="" />
-        <img src="img/6.jpg" alt="" />
-        <img src="img/7.jpg" alt="" />
-        <img src="img/8.jpg" alt="" />
-        <img src="img/9.jpg" alt="" />
-      
-        <p>MS. Nhật Linh</p>
-      </div>
-      <div id="ground"></div>
-    </div>
 
-    <!-- <div id="music-container"></div>
-    <div id="canva">
-      <canvas id="canvas"></canvas>
-    </div> -->
-    <iframe src="music2.mp3" allow="autoplay" id="audio" hidden ></iframe>
-    <!-- <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe> -->
-    <!-- <audio id="player" autoplay controls>
-        <source src="audio.mp3" type="audio/mp3">
-        <source src="audio.org" type="audio/org">
-    </audio> -->
-    <!-- <iframe src="music2.mp3" allow="autoplay" style="display:none" id="iframeAudio">
-    </iframe> 
-    
-    <audio autoplay loop>
-      <source src="music2.mp3">
-</audio> -->
-    <script src="main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ms.Nhật Linh</title>
+  <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet" />
+  <script>
+    window.onload = function () {
+      var context = new AudioContext();
+    }
+  </script>
+
+</head>
+
+<body>
+  <div id="drag-container">
+    <div id="spin-container">
+      <img src="img/1.jpg" alt="" />
+      <img src="img/2.jpg" alt="" />
+      <img src="img/3.jpg" alt="" />
+      <img src="img/4.jpg" alt="" />
+      <img src="img/5.jpg" alt="" />
+      <img src="img/6.jpg" alt="" />
+      <img src="img/7.jpg" alt="" />
+      <img src="img/8.jpg" alt="" />
+      <img src="img/9.jpg" alt="" />
+
+      <p>MS. Nhật Linh</p>
+    </div>
+    <div id="ground"></div>
+  </div>
+
+  <div id="music-container">
+  </div>
+  <div id="canva">
+    <canvas id="canvas"></canvas>
+  </div>
+  
+  
+    <iframe src="silence.mp3" allow="autoplay" id="audio" style="display: none;"></iframe>
+    <audio id="player" autoplay controls>
+      <source src="music2.mp3" type="audio/mp3">
+      <!-- <source src="audio.org" type="audio/org"> -->
+    </audio>
+  
+
+
+
+
+  <script src="main.js"></script>
+</body>
+
 </html>
